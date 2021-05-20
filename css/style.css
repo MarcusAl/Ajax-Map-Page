@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
+}
+.container {
+  margin: 5% auto;
+  width: 30rem;
+  height: 60vh;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  background-color: slategrey;
+  box-shadow: 10px 10px 10px #DDD;
+}
+
+form {
+  max-width: 2rem;
+  position: absolute;
+  top: 20px;
+  left: 6rem;
+}
+
+#results {
+  position: absolute;
+  bottom: 30px;
+  left: 3rem;
+  font-size: 20px;
+  color: #F4F4F4;
+  font-weight: 900;
+}
+
+#locationInput {
+  padding: 8px 20px;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+#submitBtn {
+  font-size: 18px;
+  font-weight: bolder;
+  width: 10rem;
+  height: 2rem;
+  margin-left: 4rem;
+  border-radius: 0.5rem;
+  background-color: #F5F5F5;
+  
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 2px 10px #C5C5C5;
+  color: #151515;
+}

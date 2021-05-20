@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Geocoder</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+
+    <div class="container">
+      <form>
+        <input type="text" name="location" id="locationInput" placeholder="Type an address">
+        <button type="submit" id="submitBtn">Geocode!</button>
+      </form>
+      <div id="results"></div>     
+    </div>
+
+      <div id='map' style='width: 1200px; height: 600px; margin: 0 auto;'></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
