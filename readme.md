@@ -11,7 +11,7 @@ and match them to a map API. This will then display the map to the user, along w
 
 - [Site](https://marcusal.github.io//ajax-map-page/)
 
-<img align="center" alt="Screenshot" height="400px" src="Screenshot 2021-05-19 at 15.27.44.png"/>
+<img align="center" alt="Screenshot" height="400px" src="Screenshot 2021-05-20 at 15.20.09.png"/>
 
 ## Authors
 
